@@ -2,6 +2,7 @@ import React from "react";
 import logo from "C:/Users/faisa/Desktop/Portfolio/portfolio/src/images/mw60217.jpg"
 export default function About(){
     return(
+    <div className="outter-about">
         <div className="about">
             <img className="photo" src={logo}/>
             <div className="info">
@@ -14,5 +15,6 @@ export default function About(){
                 </ul>
             </div>
         </div>
+    </div>
     )
 }
