@@ -1,13 +1,16 @@
 import React from "react";
 
-export default function Projects(){
+export default function Projects(props){
     return(
+    
+        
         <div className="projects">
-            <a href="#">
+        
                 <div className="project-info">
-                    <h1>Project Title</h1>
+                    <h1>{props.Title}</h1>
+                    <p>{props.Description}</p>
                 </div>
-            </a>
+            
         </div>
     )
 }

@@ -84,17 +84,39 @@
 .project-section{
     margin-top: 10%;
     display: flex;
-    justify-content: space-around;
     flex-wrap: wrap;
+    justify-content: center;
 }
+
 .projects{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     margin-top: 10%;
     height: 300px;
-    width: 33.3%;
+    width: 33.33%;
     margin-left: 20px;
     border-radius: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
+    
 }
+
+.project-info p{
+    margin-top: 5px;
+}
+
+/* Contact Info */
+
+.contact-ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    height: 100px;
+}
+.contact-info {
+    width: 20px;
+    margin-left: 10px;
+}
+
