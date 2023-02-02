@@ -19,5 +19,5 @@ export default[
         id:2,
         Title:"Activity Reservation App",
         Description: "A program that Records and tracks reservations",
-    }
+    },
 ]
