@@ -1,8 +1,9 @@
-import React from "react";
+import React, { forwardRef } from "react";
 import logo from "C:/Users/faisa/Desktop/Portfolio/Portfolio/src/images/mw60217.jpg"
+
 export default function About(){
     return(
-    <div className="outter-about">
+    <div className="outter-about" id="About">
         <div className="about">
             <img className="photo" src={logo}/>
             <div className="info">

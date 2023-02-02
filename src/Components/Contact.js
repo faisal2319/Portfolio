@@ -6,7 +6,7 @@ import GitHub from "C:/Users/faisa/Desktop/Portfolio/Portfolio/src/images/GitHub
 export default function Contact(){
     return(
         
-            <ul className="contact-ul">
+            <ul className="contact-ul" id="contact">
                 <li><a href="https://www.linkedin.com/in/faisal-alyahya-781515225/" target="_blank"><img src={linkedIn} className="contact-info" /></a></li>
                 <li><a id="mailto" href="mailto:fyalyahya@gmail.com" target="_blank"><img className="contact-info" src={Gmail}/></a></li>
                 <li><a href="https://github.com/faisal2319" alt="" target="_"> <img className="contact-info" src={GitHub}/></a></li>

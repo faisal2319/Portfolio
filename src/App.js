@@ -5,6 +5,7 @@ import About from "./Components/About";
 import Projects from "./Components/Projects";
 import data from "./data";
 import Contact from "./Components/Contact";
+
 export default function App(){
 
     const project = data.map(item =>{
@@ -12,7 +13,7 @@ export default function App(){
             <Projects 
                 key={item.id}
                 {...item}
-            
+                
             />
         )
     })
@@ -24,7 +25,7 @@ export default function App(){
             <Navbar/>
             <div className="content">
                 <About/>
-                <div className="project-section">
+                <div className="project-section" >
                     {project}
                 </div>
             </div>

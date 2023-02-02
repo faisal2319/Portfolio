@@ -1,10 +1,9 @@
 import React from "react";
 
 export default function Projects(props){
+  
     return(
-    
-        
-        <div className="projects">
+        <div className="projects" id="Project">
         
                 <div className="project-info">
                     <h1>{props.Title}</h1>
