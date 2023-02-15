@@ -1,5 +1,5 @@
 import React from "react";
-
+import bi from "C:/Users/faisa/Desktop/Portfolio new/Portfolio/src/images/to-do-list.jpg";
 export default function Projects(props){
     const [info, setInfo] = React.useState(false)
 
@@ -16,7 +16,7 @@ export default function Projects(props){
 
 
     return(
-        <div className="projects" id="Project" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
+        <div style={{backgroundImage: `url(${bi})`, backgroundRepeat:"no-repeat", backgroundSize:"cover", backgroundPosition:"center"}}className="projects" id="Project" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
             
             {info && (<div className="project-info">
                     <h1>{props.Title}</h1>
