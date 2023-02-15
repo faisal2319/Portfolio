@@ -1,7 +1,7 @@
 import React from "react";
-import linkedIn from "C:/Users/faisa/Desktop/Portfolio/Portfolio/src/images/linkedIn.png"
-import Gmail from "C:/Users/faisa/Desktop/Portfolio/Portfolio/src/images/Gmail-.png"
-import GitHub from "C:/Users/faisa/Desktop/Portfolio/Portfolio/src/images/GitHub.png"
+import linkedIn from "C:/Users/faisa/Desktop/Portfolio new/Portfolio/src/images/linkedIn.png"
+import Gmail from "C:/Users/faisa/Desktop/Portfolio new/Portfolio/src/images/Gmail-.png"
+import GitHub from "C:/Users/faisa/Desktop/Portfolio new/Portfolio/src/images/GitHub.png"
 
 export default function Contact(){
     return(
