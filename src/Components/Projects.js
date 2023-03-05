@@ -1,5 +1,5 @@
 import React from "react";
-import bi from "C:/Users/faisa/Desktop/Portfolio new/Portfolio/src/images/to-do-list.jpg";
+import bi from "C:/Users/faisa/Desktop/Projects/portfolio 1/Portfolio/src/images/to-do-list.jpg";
 export default function Projects(props){
     const [info, setInfo] = React.useState(false)
 

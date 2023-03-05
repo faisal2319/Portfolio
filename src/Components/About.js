@@ -1,5 +1,5 @@
 import React, { forwardRef } from "react";
-import logo from "C:/Users/faisa/Desktop/Portfolio new/Portfolio/src/images/mw60217.jpg"
+import logo from "C:/Users/faisa/Desktop/Projects/portfolio 1/Portfolio/src/images/mw60217.jpg"
 
 export default function About(){
     return(
