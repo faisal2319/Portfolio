@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 import {Link} from 'react-scroll'
 
 export default function Navbar(){
-   
     
+
+
     return(
         <div className="navbar">
             <img className="logo"/>
