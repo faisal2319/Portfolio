@@ -5,12 +5,15 @@ import GitHub from "C:/Users/faisa/Desktop/Projects/portfolio 1/Portfolio/src/im
 
 export default function Contact(){
     return(
-        
+        <div className="contact-holder">
             <ul className="contact-ul" id="contact">
                 <li><a href="https://www.linkedin.com/in/faisal-alyahya-781515225/" target="_blank"><img src={linkedIn} className="contact-info" /></a></li>
                 <li><a id="mailto" href="mailto:fyalyahya@gmail.com" target="_blank"><img className="contact-info" src={Gmail}/></a></li>
                 <li><a href="https://github.com/faisal2319" alt="" target="_"> <img className="contact-info" src={GitHub}/></a></li>
+                
             </ul>
+            <h1>Still under development not ready yet</h1>
+        </div>
             
         
     )
